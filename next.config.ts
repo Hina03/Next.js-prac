@@ -1,9 +1,9 @@
-import type { NextConfig } from 'next';
-
+/** @type {import('next').NextConfig} */
+ 
 const nextConfig = {
   experimental: {
-    ppr: 'increamental',
+    ppr: 'incremental',
   },
 };
-
+ 
 export default nextConfig;
